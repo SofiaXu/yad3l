@@ -1,0 +1,9 @@
+# 项目排除路径
+/yad3l-application/target/
+/yad3l-components/yad3l-components-android/target/
+/yad3l-components/yad3l-components-common/target/
+/yad3l-components/yad3l-components-spring/target/
+/yad3l-domain/target/
+/yad3l-infrastructure/target/
+/yad3l-starters/yad3l-android-starter/target/
+/yad3l-starters/yad3l-spring-starter/target/
