@@ -1,11 +1,11 @@
 package site.aoba.yad3l.domain.repository;
 
-import site.aoba.yad3l.domain.model.IDomainModel;
+import site.aoba.yad3l.domain.model.IAggregateRootModel;
 
 import java.util.List;
 import java.util.function.Predicate;
 
-public interface IRepository<TKey, TModel extends IDomainModel<TKey>> {
+public interface IRepository<TKey, TModel extends IAggregateRootModel<TKey>> {
     TModel findById(TKey id);
     List<TModel> list(int pageIndex, int pageSize);
     List<TModel> find(Predicate<TModel> predicate, int pageIndex, int pageSize);

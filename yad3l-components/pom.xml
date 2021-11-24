@@ -25,6 +25,11 @@
                 <version>1.18.22</version>
                 <scope>provided</scope>
             </dependency>
+            <dependency>
+                <groupId>site.aoba</groupId>
+                <artifactId>yad3l-components-common</artifactId>
+                <version>${project.version}</version>
+            </dependency>
         </dependencies>
     </dependencyManagement>
 </project>
